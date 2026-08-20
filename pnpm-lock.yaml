@@ -44,6 +44,9 @@ importers:
       hexo-theme-landscape:
         specifier: ^1.0.0
         version: 1.1.0
+      hexo-word-counter:
+        specifier: 0.3.0-rc.1
+        version: 0.3.0-rc.1
       rollup:
         specifier: ^4.62.4
         version: 4.62.4
@@ -887,6 +890,9 @@ packages:
   hexo-util@4.0.0:
     resolution: {integrity: sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w==}
     engines: {node: '>=18'}
+
+  hexo-word-counter@0.3.0-rc.1:
+    resolution: {integrity: sha512-FO+InlSDiIrRsZKDvUj0u9O+lwpLZRqly5aDbVpRPBapP53K5yYbNsr4uBI8Eo3ETndMTyQ1mmzRauasZuc7+A==}
 
   hexo@8.1.2:
     resolution: {integrity: sha512-gmpNwL1KnbK12q551ZhGxqvSw8M88ZSjFKOhx6ybUYz1phjPdwGewMgBgwGmjcVcIYFq6tWQAv1MRil/sBrPHQ==}
@@ -2256,6 +2262,8 @@ snapshots:
       htmlparser2: 10.1.0
       prismjs: 1.30.0
       strip-indent: 3.0.0
+
+  hexo-word-counter@0.3.0-rc.1: {}
 
   hexo@8.1.2(chokidar@3.6.0):
     dependencies:

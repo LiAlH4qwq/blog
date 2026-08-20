@@ -25,6 +25,7 @@
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
 		"hexo-theme-landscape": "^1.0.0",
+		"hexo-word-counter": "0.3.0-rc.1",
 		"rollup": "^4.62.4",
 		"rollup-plugin-sass": "1.16.0-rc.1",
 		"unplugin-swc": "^1.5.11"
