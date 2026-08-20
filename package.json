@@ -6,17 +6,14 @@
 		"build": "hexo generate",
 		"clean": "hexo clean",
 		"deploy": "hexo deploy",
-		"server": "hexo server"
+		"server": "hexo server",
+		"postinstall": "ln -srf ./_config.anatolo.yml ./themes/Anatolo/_config.yml"
 	},
 	"hexo": {
 		"version": "8.1.2"
 	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"hexo-util"
-		]
-	},
 	"dependencies": {
+		"@rollup/plugin-node-resolve": "^16.0.3",
 		"hexo": "^8.0.0",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
@@ -27,6 +24,9 @@
 		"hexo-renderer-pug": "^3.0.0",
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
-		"hexo-theme-landscape": "^1.0.0"
+		"hexo-theme-landscape": "^1.0.0",
+		"rollup": "^4.62.4",
+		"rollup-plugin-sass": "1.16.0-rc.1",
+		"unplugin-swc": "^1.5.11"
 	}
 }
