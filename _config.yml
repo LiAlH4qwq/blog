@@ -4,21 +4,21 @@
 
 # Site
 title: LiAlH4's Site
-subtitle: ""
-description: ""
-keywords:
-author: John Doe
+subtitle: LiAlH4's Blog
+description: 不知道叫什么名字，暂且用代名吧
+keywords: Blog,博客,Hexo
+author: LiAlH4
 language: zh
-timezone: ""
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.lialh4.cyou
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
