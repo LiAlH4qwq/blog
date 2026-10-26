@@ -24,7 +24,7 @@
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
 		"hexo-theme-landscape": "^1.0.0",
-		"rolldown": "^1.2.11",
+		"rolldown": "^1.2.15",
 		"rollup-plugin-sass": "1.16.0-rc.1",
 		"unplugin-swc": "^2.0.0"
 	}
