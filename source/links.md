@@ -7,7 +7,7 @@ date: 2026-08-20T20:21:12
 
 <div
   class="friend-link"
-  data-avatar="https://blog.starryreverie.cc/avatar.avif"
+  data-avatar="/images/friends/starryreverie.avif"
   data-href="https://blog.starryreverie.cc/"
   data-title="StarryReverie 星缀夜空"
   data-description="Justin Chen's Blog"
